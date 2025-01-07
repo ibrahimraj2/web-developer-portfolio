@@ -8,6 +8,9 @@
     }
 
 /* share code css style */
+.secondary-bg{
+      background-color: #fff8f3;
+}
 .text-primary{
       color: #FD6E0A;
 }
@@ -26,6 +29,20 @@
 .dark-3{
       color: #757575;
 }
+.section-title{
+      font-size: 35px;
+      font-weight: bold;
+      color: #181818;
+
+}
+.section-description{
+      font-size: 18px;
+      color: #757575;  
+}
+
+
+
+
 /* nav style css */
 nav{
       display: flex;
@@ -85,4 +102,28 @@ header{
       background: #fff;
       color: #FD6E0A;
       border: 1px solid #FD6E0A;
+}
+
+/* main tag style css */
+main{
+      max-width: 1140px;
+      margin: 0 auto;
+}
+
+/* about section style css    */
+.about{
+      border-radius: 10px;
+      padding: 110px 150px;
+      text-align: center;
+      margin-top: 130px;
+
+}
+.about-items{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 160px;
+}
+.item-description{
+      font-weight: 600;
+
 }
