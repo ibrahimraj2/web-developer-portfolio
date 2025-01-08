@@ -190,3 +190,38 @@ main section{
 .btn-div{
       margin-top: 40px;
 }
+
+
+/* footer style css  */
+footer{
+      padding: 130px 230px;
+      display: flex;
+      gap: 100px;
+}
+
+.footer-column{
+      width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"]{
+      height: 50px;
+      border-radius: 5px;
+      background-color: #fff;
+      display: block;
+      width: 100%;
+      padding: 8px 20px;
+      color: #757575;
+      margin-bottom: 24px;
+      border: none;
+}
+footer textarea{
+      /* height: 50px; */
+      border-radius: 5px;
+      background-color: #fff;
+      display: block;
+      width: 100%;
+      padding: 8px 20px;
+      color: #757575;
+      margin-bottom: 24px;
+      border: none;
+}
